@@ -10,7 +10,7 @@ pipeline {
     stages{
         stage('Docker Build') {
             steps {
-                sh 'cd api && docker build -t akhilvodnala/backend .'
+                sh 'cd api && docker build -t akhilkvodnala/backend .'
              }
           }
         stage('Docker Login') {
